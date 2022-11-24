@@ -1,0 +1,261 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.login__bg-f {
+    display: grid;
+    background: url(../Assets/stud.jpg)center no-repeat;
+	background-size: cover;
+	background-size: cover; 
+    background-color:rgba(0, 0, 0, 0.600);
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: middle;
+}
+
+.bg__fon__home{
+    background-color:rgba(0,0,0,.3);
+    width:100%;
+    top:0;
+    left:1;
+    overflow-y: auto;
+    display: flex;
+}
+
+@media (max-width:  768px){
+    .bg__fon__home {
+        background-color: rgba(0,0,0,.3);
+        height: 100%;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 1;
+        overflow-y: auto;
+        display: flex;
+    }
+}
+
+#main-container{
+    place-items: center center;
+}
+
+@media (max-width:  768px){
+    #main-container{
+        padding: 0px 10px 0px 10px;
+        margin-bottom: 40px;
+    }
+  }
+
+@media (max-width:  768px){
+    .bg__fon__home{
+        flex-wrap: wrap;
+    }
+  }
+
+h1 {
+    color: #007e6d;
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 0px;
+}
+
+@media (max-width:  768px){
+    h1 {
+        font-size: 18px;
+    }
+  }
+
+.login__card__home{
+    margin-right: 500px;
+    position: relative;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.100);
+}
+
+@media (max-width:  768px){
+    .login__card__home{
+        margin: 0px 10px 0px 10px;
+        padding: 20px;
+    }
+  }
+
+.portal__title{
+    text-align: right;
+    font-weight: bold;
+    font-size: 60px;
+    color: #ffffff;
+    padding-left: 200px;
+    padding-right: 80px;
+    line-height: 1.2em;
+    opacity: 0.9;
+}
+
+@media (max-width:  768px){
+    .portal__title{
+       text-align: center;
+       font-size: 32px;
+       line-height: 1.25em;
+       padding: 0px 10px 0px 10px;
+       margin: 60px 0px 40px 0px;
+    }
+  }
+
+#sing-in-form1 {
+    max-width: 330px;
+}
+
+#sing-in-form2 {
+    max-width: 330px;
+}
+
+@media (max-width:  768px){
+    #sing-in-form2{
+    max-width: 100%;
+    }
+  }
+
+.Logologin {
+    width: 100px;
+    margin-bottom: 40px;
+}
+
+@media (max-width:  768px){
+    .Logologin {
+        width: 80px;
+    }
+  }
+
+.el-pochta{
+    border: 0px solid #EBEBEB;
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    color:  #424242;
+    font-size: 12px;
+}
+
+.el-pochta:hover, :focus, ::after{
+    border: 0px solid #EBEBEB ;
+    background-color: none !important;
+    color: #000000 !important;
+}
+
+.parol{
+    border: 0px solid #EBEBEB;
+    border-radius: 10px;
+    color: #424242;
+    font-size: 12px;
+}
+
+.parol:hover, :focus{
+    border: 0px solid #EBEBEB ;
+    background-color: none !important;
+    color: #000000 !important;
+}
+
+.form-control:focus {
+    z-index: 5;
+}
+
+#sing-in-form{
+    max-width: 330px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #007e6d;
+}
+
+.remeber__me__flex{
+    display: flex;
+}
+
+.remeber__me{
+    font-size: 12px;
+    margin: 0px 0px 10px 5px ;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: #e7f1ff;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: #e7f1ff;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.button{
+    border-radius: 10px;
+    border-color: #007e6d!important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0)!important;
+    outline: 0 none!important;
+    font-size: 12px;
+    font-weight: 700;   
+    letter-spacing: .6px;  
+    text-transform: uppercase;
+    padding: 10px 15px 10px;
+}
+
+.button:focus{
+    background-color: #000000 !important;
+    border-color: #000000!important;
+    color: #fff !important;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="name"]:focus,
+input[type="last_name"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+    border-color: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+    outline: 0 none;
+}
+  
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.form-check-input:checked, ::before {
+    background-color: #007e6d !important;
+    border-color: #007e6d !important;
+    color: none !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 20%27%3e%3cpath fill=%27none%27 stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M6 10l3 3l6-6%27/%3e%3c/svg%3e") !important; 
+}
+
+.form-check-input {
+    border-radius: 10px !important;
+}

@@ -1,0 +1,32 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.attachment__section{
+    display: flex;
+}
+
+.attachment_file{
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.application_status{
+    font-size: 14px;
+    font-weight: bold;
+    color: #007e6d ;
+}
+
+.attachment_file__pdf{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+li::marker {
+    color: #DE944C;
+  }
+
+#withdraw-margin{
+    margin: 5px 0px 10px 0px;
+} 
